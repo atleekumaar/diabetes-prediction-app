@@ -89,23 +89,6 @@ source .venv/bin/activate
 ```bash
 uv pip install -r requirements.txt
 uv run streamlit run app.py
-```
 
 ---
 
-## 🌐 Live Deployment
-
-This repository is optimized for deployment on **Streamlit Community Cloud**:
-
-1. Fork or push this repository to GitHub.
-2. Sign in to [share.streamlit.io](https://share.streamlit.io/).
-3. Select this repository (`diabetes-prediction-app`), set the main file path to `app.py`, and click **Deploy**.
-
-
-
----
-
-## 👤 Author
-
-**Atul Shukla**
-GitHub: [@atleekumaar](https://github.com/atleekumaar)
