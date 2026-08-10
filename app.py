@@ -130,7 +130,7 @@ with st.sidebar:
     st.text("Accuracy: ~77.3%")
     
     st.markdown("---")
-    st.caption("Developed with ❤️ using Streamlit & Scikit-Learn")
+    st.caption("Developed with ❤️ using Streamlit & Scikit-Learn By Atul Shukla")
 
 # -----------------------------------------------------------------------------
 # 4. Main Page Header
