@@ -150,7 +150,6 @@ st.subheader("📋 Enter Patient Medical Metrics")
 col1, col2 = st.columns(2)
 
 with col1:
-    pregnancies = st.number_input('Pregnancies Count', min_value=0, max_value=20, value=1, help="Number of times pregnant")
     glucose = st.number_input('Glucose Level (mg/dL)', min_value=0, max_value=300, value=120, help="Plasma glucose concentration (2 hours in an oral glucose tolerance test)")
     blood_pressure = st.number_input('Blood Pressure (mmHg)', min_value=0, max_value=200, value=70, help="Diastolic blood pressure")
     skin_thickness = st.number_input('Skin Thickness (mm)', min_value=0, max_value=100, value=20, help="Triceps skin fold thickness")
