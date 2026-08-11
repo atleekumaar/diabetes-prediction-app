@@ -165,7 +165,7 @@ st.markdown("<br>", unsafe_allow_html=True)
 # 6. Prediction Engine & Output Dashboard
 # -----------------------------------------------------------------------------
 if st.button('🚀 Analyze Risk'):
-    input_data = (pregnancies, glucose, blood_pressure, skin_thickness, insulin, bmi, dpf, age)
+    input_data = ( glucose, blood_pressure, skin_thickness, insulin, bmi, dpf, age)
     input_array = np.asarray(input_data).reshape(1, -1)
     
     # Preprocess features using loaded scaler
