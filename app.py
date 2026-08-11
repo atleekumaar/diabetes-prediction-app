@@ -153,7 +153,7 @@ with col1:
     glucose = st.number_input('Glucose Level (mg/dL)', min_value=0, max_value=300, value=120, help="Plasma glucose concentration (2 hours in an oral glucose tolerance test)")
     blood_pressure = st.number_input('Blood Pressure (mmHg)', min_value=0, max_value=200, value=70, help="Diastolic blood pressure")
     skin_thickness = st.number_input('Skin Thickness (mm)', min_value=0, max_value=100, value=20, help="Triceps skin fold thickness")
-     age = st.number_input('Age (Years)', min_value=1, max_value=120, value=30)
+    age = st.number_input('Age (Years)', min_value=1, max_value=120, value=30)
 with col2:
     insulin = st.number_input('Insulin Level (mu U/ml)', min_value=0, max_value=900, value=80, help="2-Hour serum insulin")
     bmi = st.number_input('Body Mass Index (BMI)', min_value=0.0, max_value=70.0, value=25.0, format="%.1f", help="Weight in kg/(height in m)^2")
