@@ -205,7 +205,6 @@ if st.button('🚀 Analyze Risk'):
     ========================================
          DIABETES AI DIAGNOSTIC REPORT
     ========================================
-    Pregnancies: {pregnancies}
     Glucose Level: {glucose} mg/dL
     Blood Pressure: {blood_pressure} mmHg
     Skin Thickness: {skin_thickness} mm
